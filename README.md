@@ -17,4 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Nikhilcyb-web/DSA/tree/master/0387-first-unique-character-in-a-string) |
+## Array
+|  |
+| ------- |
+| [0134-gas-station](https://github.com/Nikhilcyb-web/DSA/tree/master/0134-gas-station) |
+## Greedy
+|  |
+| ------- |
+| [0134-gas-station](https://github.com/Nikhilcyb-web/DSA/tree/master/0134-gas-station) |
 <!---LeetCode Topics End-->
