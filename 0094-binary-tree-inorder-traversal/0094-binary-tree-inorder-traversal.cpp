@@ -12,15 +12,28 @@
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        if(root == NULL) return{};
-        vector<int> ans;
-
-        vector<int> left = inorderTraversal(root -> left);
-        ans.insert(ans.end(),left.begin(),left.end());
-        ans.push_back(root->val);
-
-        vector<int> right = inorderTraversal(root -> right);
-        ans.insert(ans.end(),right.begin(),right.end());
+        vector<int>ans;
+        TreeNode* curr = root;
+        while(curr != NULL){
+            if(curr->left == NULL){
+                ans.push_back(curr->val);
+                curr = curr->right;
+            }else{
+                //find IP
+                TreeNode* IP = curr->left;
+                while(IP->right != NULL && IP->right !=curr ){
+                    IP = IP->right;
+                }
+                if(IP->right ==  NULL){
+                    IP->right = curr;
+                    curr = curr->left;
+                }else{
+                    IP->right = NULL;
+                    ans.push_back(curr->val);
+                    curr = curr->right;
+                }
+            }
+        }
         return ans;
     }
 };
