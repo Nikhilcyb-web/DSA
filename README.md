@@ -138,4 +138,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nikhilcyb-web/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+## Math
+|  |
+| ------- |
+| [0728-self-dividing-numbers](https://github.com/Nikhilcyb-web/DSA/tree/master/0728-self-dividing-numbers) |
 <!---LeetCode Topics End-->
